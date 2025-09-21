@@ -13,7 +13,7 @@ if (isset($_POST['register'])) {
         $error = "Error while registering. Please try again.";
     }
 }
-?>
+// ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

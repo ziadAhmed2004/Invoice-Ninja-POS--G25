@@ -17,7 +17,7 @@ if (isset($_POST['login'])) {
         $error = "Incorrect email or password.";
     }
 }
-?>
+// ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

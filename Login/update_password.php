@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $confirmPassword = trim($_POST["confirm_password"]);
 
     if ($newPassword === $confirmPassword && !empty($newPassword)) {
-        // هنا المفروض نخزن الباسورد الجديد في قاعدة البيانات
+        // هنا المفروض نخزن الباسورد الجديد في قاعدة البيانات.
         // مؤقتًا للتجربة بس، هنخزنه في السيشن
         $_SESSION["user_password"] = password_hash($newPassword, PASSWORD_DEFAULT);
         ?>

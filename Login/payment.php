@@ -6,7 +6,7 @@ if (!isset($_SESSION['user'])) {
     header("Location: login.php");
     exit;
 }
-
+// 
 $user = $_SESSION['user'];
 
 if (isset($_POST['pay'])) {

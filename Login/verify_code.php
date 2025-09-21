@@ -4,6 +4,7 @@ if (!isset($_SESSION["reset_email"])) {
     header("Location: forgot_password.php");
     exit();
 }
+// 
 ?>
 <!DOCTYPE html>
 <html lang="en">

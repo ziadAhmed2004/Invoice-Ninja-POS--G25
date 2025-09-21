@@ -3,7 +3,7 @@ session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST["email"]);
-
+// 
     if (!empty($email) && filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $resetCode = rand(100000, 999999); // كود 6 أرقام
 

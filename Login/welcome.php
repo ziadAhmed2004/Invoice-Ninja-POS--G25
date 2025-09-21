@@ -5,6 +5,7 @@ if (!isset($_SESSION['user'])) {
     exit;
 }
 $user = $_SESSION['user'];
+// 
 ?>
 <!DOCTYPE html>
 <html lang="en">
